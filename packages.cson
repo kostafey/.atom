@@ -1,0 +1,8 @@
+# apm install package-sync
+# M-x package-sync:sync
+'packages': [
+  'package-sync'
+  'Ensime'
+  'flatwhite-syntax'
+  'git-plus'
+]
