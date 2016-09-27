@@ -1,0 +1,16 @@
+"*":
+  core:
+    closeEmptyWindows: false
+    themes: [
+      "one-light-ui"
+      "flatwhite-syntax"
+    ]
+  editor:
+    fontFamily: "Consolas"
+    fontSize: 17
+  "exception-reporting":
+    userId: "1937c00e-1002-843e-7a1b-2cb344feab24"
+  "flatwhite-syntax":
+    ebmedded: "Full"
+  welcome:
+    showOnStartup: false
