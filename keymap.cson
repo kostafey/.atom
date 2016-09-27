@@ -33,3 +33,11 @@
 
 'atom-text-editor':
   'alt-x': 'command-palette:toggle'
+  'alt-ctrl-right': 'bracket-matcher:go-to-matching-bracket'
+  'alt-ctrl-left': 'bracket-matcher:go-to-matching-bracket'
+  'alt-w': 'git-plus:status'
+
+'.platform-win32 atom-text-editor':
+  'alt-ctrl-shift-right': 'bracket-matcher:select-inside-brackets'
+  'alt-ctrl-shift-left': 'bracket-matcher:select-inside-brackets'
+  'F1': 'fuzzy-finder:toggle-file-finder'
