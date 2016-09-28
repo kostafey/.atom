@@ -9,3 +9,8 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+atom.commands.add 'atom-text-editor', 'custom:hide', ->
+  remote = require('electron').remote;
+  window = remote.getCurrentWindow();
+  window.minimize();

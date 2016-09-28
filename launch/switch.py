@@ -28,7 +28,11 @@ class WindowMgr:
         """put the window in the foreground"""
         win32gui.BringWindowToTop(self._handle)
         win32gui.SetForegroundWindow(self._handle)
-        win32gui.ShowWindow(self._handle, win32con.SW_MAXIMIZE)
+        # win32gui.ShowWindow(self._handle, win32con.SW_MAXIMIZE)
+
+    def set_background(self):
+        """put the window in the background"""
+        # win32gui.ShowWindow(self._handle, win32con.SW_MINIMIZE)
 
 if (len(sys.argv) > 1 and sys.argv[1] != None):
     subprocess.call(['atom', sys.argv[1]], shell=True)
