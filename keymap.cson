@@ -37,6 +37,8 @@
   'alt-ctrl-left': 'bracket-matcher:go-to-matching-bracket'
   'alt-w': 'git-plus:status'
   'alt-z': 'custom:hide'
+  'ctrl-c ctrl-d': 'editor:duplicate-lines'
+  'ctrl-x r': 'revert-buffer:revert'
 
 '.platform-win32 atom-text-editor':
   'alt-ctrl-shift-right': 'bracket-matcher:select-inside-brackets'
