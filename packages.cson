@@ -5,8 +5,11 @@
   'Ensime'
   'flatwhite-syntax'
   'git-plus'
+  'atomatigit'
   'run-in-atom'
   'jquery-ui/autocomplete'
   'atom-beautify'
   'goto-last-edit'
+  'atom-fuzzy-grep'
+  'ctrl-dir-scroll'
 ]

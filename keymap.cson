@@ -35,18 +35,33 @@
   'alt-x': 'command-palette:toggle'
   'alt-ctrl-right': 'bracket-matcher:go-to-matching-bracket'
   'alt-ctrl-left': 'bracket-matcher:go-to-matching-bracket'
-  'alt-w': 'git-plus:status'
   'alt-z': 'custom:hide'
-  'ctrl-c ctrl-d': 'editor:duplicate-lines'
-  'ctrl-x r': 'revert-buffer:revert'
+  'ctrl-c d': 'editor:duplicate-lines'
+  # 'ctrl-x r': 'revert-buffer:revert'
 
   'ctrl-pagedown': 'pane:show-next-recently-used-item'
   'ctrl-pageup': 'pane:show-previous-recently-used-item'
   'alt-pagedown': 'pane:show-next-item'
   'alt-pageup': 'pane:show-previous-item'
 
-  'ctrl-x x': 'goto-last-edit:back'
-  'ctrl-shift-x x': 'goto-last-edit:forward'
+  'ctrl-q': 'goto-last-edit:back'
+  'ctrl-shift-q': 'goto-last-edit:forward'
+
+  'alt-e': 'run-in-atom:run-in-atom'
+
+  # scroll
+  'ctrl-up': 'ctrl-dir-scroll:scroll-up'
+  'ctrl-down': 'ctrl-dir-scroll:scroll-down'
+
+  # git
+  'alt-shift-w': 'git-plus:status'
+  'alt-w': 'atomatigit:toggle'
+
+'.atomatigit .file-list-view':
+  's': 'atomatigit:stage'
+
+'.editor':
+  'ctrl-alt-b': 'atom-beautify:beautify-editor'
 
 '.platform-win32 atom-text-editor':
   'alt-ctrl-shift-right': 'bracket-matcher:select-inside-brackets'

@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "2da4ec7b-b04d-4722-879d-045dbfd6b9a1"
   core:
     closeEmptyWindows: false
     disabledPackages: [
