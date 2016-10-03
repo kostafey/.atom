@@ -1,6 +1,9 @@
 "*":
   core:
     closeEmptyWindows: false
+    disabledPackages: [
+      "project-folder"
+    ]
     themes: [
       "one-light-ui"
       "flatwhite-syntax"

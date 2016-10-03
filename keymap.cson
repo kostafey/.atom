@@ -39,6 +39,10 @@
   'alt-z': 'custom:hide'
   'ctrl-c ctrl-d': 'editor:duplicate-lines'
   'ctrl-x r': 'revert-buffer:revert'
+  'ctrl-pagedown': 'pane:show-next-recently-used-item'
+  'ctrl-pageup': 'pane:show-previous-recently-used-item'
+  'alt-pagedown': 'pane:show-next-item'
+  'alt-pageup': 'pane:show-previous-item'
 
 '.platform-win32 atom-text-editor':
   'alt-ctrl-shift-right': 'bracket-matcher:select-inside-brackets'

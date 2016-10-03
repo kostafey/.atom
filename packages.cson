@@ -6,4 +6,6 @@
   'flatwhite-syntax'
   'git-plus'
   'run-in-atom'
+  'jquery-ui/autocomplete'
+  'atom-beautify'
 ]
