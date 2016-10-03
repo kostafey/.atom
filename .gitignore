@@ -5,4 +5,5 @@ storage
 .apm
 .node-gyp
 .npm
+.projects
 /packages

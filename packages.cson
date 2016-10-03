@@ -8,4 +8,5 @@
   'run-in-atom'
   'jquery-ui/autocomplete'
   'atom-beautify'
+  'goto-last-edit'
 ]
