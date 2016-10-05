@@ -12,4 +12,7 @@
   'goto-last-edit'
   'atom-fuzzy-grep'
   'ctrl-dir-scroll'
+  'smalls'
+  'highlight-selected'
+  'file-icons'
 ]

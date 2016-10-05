@@ -36,7 +36,7 @@
   'alt-ctrl-right': 'bracket-matcher:go-to-matching-bracket'
   'alt-ctrl-left': 'bracket-matcher:go-to-matching-bracket'
   'alt-z': 'custom:hide'
-  'ctrl-c d': 'editor:duplicate-lines'
+  'ctrl-alt-c d': 'editor:duplicate-lines'
   # 'ctrl-x r': 'revert-buffer:revert'
 
   'ctrl-pagedown': 'pane:show-next-recently-used-item'
@@ -57,8 +57,15 @@
   'alt-shift-w': 'git-plus:status'
   'alt-w': 'atomatigit:toggle'
 
+  'ctrl-alt-c f': 'fuzzy-grep:toggleLastSearch'
+
+  'alt-a': 'smalls:start'
+
 '.atomatigit .file-list-view':
   's': 'atomatigit:stage'
+
+'atom-workspace .atom-fuzzy-grep':
+  'ctrl-f': 'fuzzy-grep:toggleFileFilter'
 
 '.editor':
   'ctrl-alt-b': 'atom-beautify:beautify-editor'

@@ -6,6 +6,7 @@
     closeEmptyWindows: false
     disabledPackages: [
       "project-folder"
+      "lisp-paredit"
     ]
     themes: [
       "one-light-ui"
@@ -16,7 +17,14 @@
     fontSize: 17
   "exception-reporting":
     userId: "1937c00e-1002-843e-7a1b-2cb344feab24"
+  "file-icons":
+    coloured: false
   "flatwhite-syntax":
     ebmedded: "Full"
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
+  "lisp-paredit": {}
+  "tree-view": {}
   welcome:
     showOnStartup: false
